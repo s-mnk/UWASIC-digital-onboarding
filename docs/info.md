@@ -14,8 +14,7 @@ There are 16 output bits, with corresponding 16 output registers and 16 PWM regi
 
 ## How to test
 
-Explain how to use your project
-To be filled.
+Testbenches are provided for SPI and PWM modules (PWM WIP).
 
 ## External hardware
 
