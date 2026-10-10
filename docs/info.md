@@ -15,7 +15,8 @@ There are 16 output bits, with 5 control registers that enable the standard/PWM 
 
 ## How to test
 
-Testbenches are provided for SPI and PWM modules (PWM WIP).
+Testbenches are provided to test both SPI and PWM peripherals.
+Github Actions automatically runs the testbench to verify the peripherals. To check the waveforms, open tb.vcd with GTKWave or another VCD tool.
 
 ## External hardware
 
