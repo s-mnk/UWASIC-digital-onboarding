@@ -5,8 +5,8 @@ module spi_peripheral (
     input  wire       rst_n,     // reset_n - low to reset
 
     input  wire       sclk,      // ui_in[0] serial clock 
-    input  wire       ncs,      // ui_in[1] chip select/slave select (active low)
-    input  wire       copi,      // ui_in[2] controller out peripheral in (aka MOSI/SDI), serial data from controller
+    input  wire       ncs,      // ui_in[2] chip select/slave select (active low)
+    input  wire       copi,      // ui_in[1] controller out peripheral in (aka MOSI/SDI), serial data from controller
     // can omit cipo in this project
     /* Register outputs to pwm_peripheral */
     output reg  [7:0] en_reg_out_7_0,
